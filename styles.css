@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #81e4f1;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.sobre, .servicos {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #81e4f1;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.img-container {
+    text-align: center;
+    margin: 30px 20px;
+}
+
+.img-container img {
+    margin: 50px;
+    width: 40%;
+    height: 50%;
+    border-radius: 20px;
+}
